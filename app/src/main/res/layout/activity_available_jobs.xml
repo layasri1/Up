@@ -1,4 +1,8 @@
 <!-- res/layout/activity_available_jobs.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,3 +24,4 @@
     <!-- You can add more TextViews here to display job details -->
 
 </LinearLayout>
+    </ScrollView>
