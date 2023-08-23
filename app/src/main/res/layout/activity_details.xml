@@ -1,0 +1,64 @@
+<!-- res/layout/activity_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work details"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/daysEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Days" />
+
+    <EditText
+        android:id="@+id/startDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date" />
+
+    <EditText
+        android:id="@+id/cropNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Crop Name" />
+
+    <EditText
+        android:id="@+id/workTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Work Type" />
+
+    <EditText
+        android:id="@+id/requirementEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Requirement" />
+
+    <EditText
+        android:id="@+id/areaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area" />
+
+    <EditText
+        android:id="@+id/wageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wage" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
