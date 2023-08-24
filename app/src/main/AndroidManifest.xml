@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Up"
         tools:targetApi="31">
         <activity
+            android:name=".WorkerDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".AvailableJobsActivity"
             android:exported="false" />
         <activity

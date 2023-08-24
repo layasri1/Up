@@ -17,7 +17,11 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-
+    <!-- RecyclerView to display job details -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/jobDetailsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/jobDetailCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TextViews to display job details -->
+        <TextView
+            android:id="@+id/jobUserIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="User ID: " />
+
+        <TextView
+            android:id="@+id/jobDaysTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days: " />
+
+        <TextView
+            android:id="@+id/jobStartDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date: " />
+
+        <TextView
+            android:id="@+id/jobCropNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Name: " />
+
+        <TextView
+            android:id="@+id/jobWorkTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Type: " />
+
+        <TextView
+            android:id="@+id/jobRequirementTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Requirement: " />
+
+        <TextView
+            android:id="@+id/jobAreaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area: " />
+
+        <TextView
+            android:id="@+id/jobWageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wage: " />
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply" />
+        <!-- Add more TextViews for other job details here -->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
